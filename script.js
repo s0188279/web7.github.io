@@ -1,3 +1,4 @@
+document.addEventListener('DOMContentLoaded', function() {
 let currentPage = 0;
 const totalItems = 15;
 const itemsPerPage = 5;
@@ -26,3 +27,4 @@ function updateGalleryPosition() {
 }
 
 updateGalleryPosition();
+});
