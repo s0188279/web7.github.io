@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: FreeMono, monospace;
     margin: 0;
@@ -28,7 +34,8 @@ footer {
 }
 
 .gallery-item {
-    margin: 0 10px;
+    flex: 0 0 calc(33.33% - 20px); /* Три изображения по горизонтали для десктопа */
+    margin: 10px; 
 }
 
 .gallery img {
